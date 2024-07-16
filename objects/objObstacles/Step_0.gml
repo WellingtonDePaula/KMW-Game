@@ -1,6 +1,6 @@
 event_inherited();
-if(instance_exists(playerId)) {
-	if(place_meeting(x, y, playerId)) {
-		instance_destroy(playerId);
+if(instance_exists(global.player)) {
+	if(place_meeting(x, y, global.player)) {
+		instance_destroy(global.player);
 	}
 }

@@ -1,5 +1,5 @@
 event_inherited();
-playerId = global.player;
+global.player = global.player;
 
 objMvelMultiplier = 1;
 maxVelv = 1;

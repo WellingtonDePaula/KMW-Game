@@ -1,4 +1,3 @@
-playerId = global.player;
 line = objLine;
 velv = 0;
 
